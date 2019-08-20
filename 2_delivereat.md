@@ -10,7 +10,7 @@
 
 ## 5.a Registrar pedido a comercio adherido
 
-## 5.b Registrar pedido a buscar
+## 5.b Registrar pedido a lugar no listado
 
 ## 6.a Consultar mi pedido (cliente)
 
@@ -38,6 +38,18 @@
 
 ## 16.b Recibir notificacion de comercio
 
-## 17. Hacer seguimiento del pedido
+## 17. Registrar cadete
 
-## 18. Registrar cadete
+## 18. Registrar pago efectivo
+
+# Definición de Story Points - MVP
+
+## 1) US Canónica
+18. Registrar pago efectivo -> 1SP
+## 2) User Stories para MVP
+1. Registrar pedido comercio no adherido
+2. Registrar usuario con mail
+3. Cerrar pedido
+4. Registrar cadete
+5. Registrar pago efectivo
+6. Recibir notificacion de cadete
