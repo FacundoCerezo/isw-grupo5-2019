@@ -19,7 +19,7 @@
 ## 7. Consultar comercios adheridos
 
 ## 8. Cerrar pedido
-
+Yo como cadete quiero registrar la finalizacion del pedido para confirmarle al negocio que el pedido se terminó
 ## 9. Hacer seguimiento pedido
 
 ## 10. Definir filtros
@@ -45,11 +45,20 @@
 # Definición de Story Points - MVP
 
 ## 1) US Canónica
-18. Registrar pago efectivo -> 1SP
+18. Registrar pago efectivo -> *1SP*
 ## 2) User Stories para MVP
-1. Registrar pedido comercio no adherido
-2. Registrar usuario con mail
-3. Cerrar pedido
+1. Registrar pedido comercio no adherido: *5SP*
+2. Registrar usuario con mail: *2SP*
+    * 5SP - Justificacion: 
+      * Hay que testear que llegue el mail, validar. No es solamente un campo de texto, porque el usuario tiene que confirmar desde su correo electrónico.
+      * Si es un email que no existia
+    * 2SP - Justificacion: 
+      * Porque no abarca otros procesos. Es solo completar email, usuario y contraseña. 
+3. Cerrar pedido: *2SP*
+   * 5SP - Justificacion:
+     * Por incertidumbre.
+   * 2SP - Justificación:
+     * Es cambiar un estado de pendiente a finalizado.
 4. Registrar cadete
 5. Registrar pago efectivo
 6. Recibir notificacion de cadete
