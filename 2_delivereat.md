@@ -10,7 +10,9 @@
 
 ## 5. Registrar pedido
 
-## 6. Consultar pedido
+## 6.a Consultar mi pedido (cliente)
+
+## 6.b Consultar mis pedidos (comercio)
 
 ## 7. Consultar comercios adheridos
 
