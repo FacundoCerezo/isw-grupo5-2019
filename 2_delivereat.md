@@ -64,5 +64,5 @@ Yo como cadete quiero registrar la finalizacion del pedido para confirmarle al n
      * Porque me resulta muy parecido a Registrar Pedido 
    * 2SP - Justificación:
      * Porque solo hay que poner los datos del cadete. 
-5. Registrar pago efectivo
-6. Recibir notificacion de cadete
+5. Registrar pago efectivo: *1SP*
+6. Recibir notificacion de cadete: *3SP*
