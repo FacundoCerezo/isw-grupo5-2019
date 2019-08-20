@@ -24,4 +24,8 @@
 
 ## 12. Registrar categoría
 
-## 13. Gestionar productos del carrito
+## 13. Agregar productos del carrito
+
+## 14. Modificar productos del carrito
+
+## 15. Quitar productos del carrito
