@@ -24,7 +24,7 @@
 * Ubicación Física: /isw-grupo5-2019/informe-tecnico/
 
 ### Bibliografía de Informe Técnico
-* Regla de Nombrado: <nombre>.pdf
+* Regla de Nombrado: <nombre>.<ext>
 * Ubicación
 
 ## Estructura de Directorios
