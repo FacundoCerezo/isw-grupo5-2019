@@ -34,7 +34,7 @@
 * Regla de Nombrado: &lt;nombre&gt;.&lt;ext&gt;
 * Ubicación
 
-## Estructura de Directorios
+### Estructura de Directorios
 
 La estructura de directorios es la siguiente
 
@@ -45,3 +45,16 @@ La estructura de directorios es la siguiente
         ├───tp2-taximobile
         └───tp3-delivereat
 ```
+
+### Gestión de la línea base
+
+Los siguientes items de configuración serán incluidos en cada línea base cuando tengan un nivel de madurez suficiente:
+- Todas las resoluciones de los trabajos prácticos conceptuales.
+   - El informe técnico.
+   - El póster científico.
+   - El documento de Pecha Kucha.
+- Documentación relacionada con los prácticos evaluables. Al menos los siguientes Items de configuración tienen que ser incluidos:
+   - El plan de Gestión de la configuración.
+   - Código fuente relacionada con la implementación de user stories.
+   - Documentos de regla de estilo.
+   - Planilla excel con los resultados de la ejecución de testing.
