@@ -16,7 +16,7 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Bibliografía de Informe Técnico | bib_&lt;autor&gt;_&lt;titulo&gt;.&lt;ext-bib&gt; | /isw-grupo5-2019/ |informe-tecnico-despliegue-continuo-grupo5/bibliografia/  |
 | Enunciados de Trabajos Prácticos | ISW_Enunciados_TP_evaluables_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/
 | Modalidad Academica | UTN_FRC_Modalidad_ISW_2019_2do_Cuat | /isw-grupo5-2019/material-de-la-catedra/ |
-| Material de Soporte para Trabajo Practico | mat_tp&lt;n_tp&gt;_&lt;dominio&gt;.pdf | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/material-de-soporte/ |
+| Material de Soporte para Trabajo Practico | mat-tp&lt;n_tp&gt;-&lt;dominio&gt;.pdf | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/material-de-soporte/ |
 
 ## 3. Glosario
 
