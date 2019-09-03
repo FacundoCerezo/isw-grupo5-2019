@@ -5,4 +5,4 @@
 * &lt;autor&gt;: iniciales de nombre y apellido del autor o autores del documento separados por guiones. Ej: M.S.-L.Z.-M.A.B.
 * &lt;titulo&gt;: titulo del documento. Ej: Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices.
 * &lt;ext-bib&gt;: representa la extension del documento bibliografico. Puede ser .pdf, .docx, .doc
-* &lt;ext-tp&gt;: representa la etension de la resolucion de trabajo práctico. Puede ser .docx, .doc, .md, .jpg
+* &lt;ext-tp&gt;: representa la extension de la resolucion de trabajo práctico. Puede ser .docx, .doc, .md, .jpg
