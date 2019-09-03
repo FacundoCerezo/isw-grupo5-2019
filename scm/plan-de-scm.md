@@ -20,7 +20,7 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 
 ## 3. Glosario
 
-> Las etiquetas de nomenclatura están en /isw-grupo5-2019/scm/glosario.md
+> Las etiquetas de nomenclatura están en [/isw-grupo5-2019/scm/glosario.md](/scm/glosario.md)
 
 ## 4. Estructura de Directorios
 
