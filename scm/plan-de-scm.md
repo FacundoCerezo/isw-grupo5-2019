@@ -12,7 +12,7 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Conjunto de User Stories | us-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 | Resolución de Trabajo Práctico | tp&lt;n_tp&gt;-&lt;dominio&gt;.&lt;ext-tp&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 | Estimaciones | estimacion-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
-| Informe Técnico | ISW_IT_Despliegue_Continuo_2019_4k2_Grupo 5.pdf | /isw-grupo5-2019/informe-tecnico-despliegue-continuo-grupo5/ |
+| Informe Técnico | ISW_IT_Despliegue_Continuo_2019_4k2_Grupo_5.pdf | /isw-grupo5-2019/informe-tecnico-despliegue-continuo-grupo5/ |
 | Bibliografía de Informe Técnico | bib_&lt;autor&gt;_&lt;titulo&gt;.&lt;ext-bib&gt; | /isw-grupo5-2019/informe-tecnico-despliegue-continuo-grupo5/bibliografia/  |
 
 ## 3. Glosario
