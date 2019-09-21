@@ -27,13 +27,20 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 La estructura de directorios es la siguiente
 
 ```isw-grupo5-2019
-    ├───informe-tecnico
-        ├───bibliografia
-    ├───scm
-    └───trabajos-practicos
-        ├───tp1-manifiesto-agil-y-lean
-        ├───tp2-user-stories-taximobile
-        └───tp3-user-stories-estimaciones-delivereat
+    ├─── informe-tecnico-despliegue-continuo-grupo5
+    |    └─── bibliografia
+    ├─── material-de-la-catedra
+    ├─── scm
+    └─── trabajos-practicos
+        ├─── tp1-manifiesto-agil-y-lean
+        ├─── tp2-user-stories-taximobile
+        ├─── tp3-user-stories-estimaciones-delivereat
+        |    └─── material-de-soporte
+        ├─── tp5-scm-uso-repositorio
+        ├─── tp6-implementacion-us-delivereat
+        |    ├─── documentación
+        |    └─── Realizar-Pedido-de-lo-que-sea
+        └─── tp7-dinamica-de-scrum
 ```
 
 ## 5. Gestión de la línea base
@@ -50,3 +57,4 @@ Los siguientes items de configuración serán incluidos en cada línea base cuan
   - Documentos de regla de estilo.
   - Planilla excel con los resultados de la ejecución de testing.
   
+  La línea base se creará durante la semana posterior a los parciales de la materia.
