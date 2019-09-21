@@ -17,6 +17,7 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Enunciados de Trabajos Prácticos | ISW_Enunciados_TP_evaluables_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/
 | Modalidad Academica | UTN_FRC_Modalidad_ISW_2019_2do_Cuat | /isw-grupo5-2019/material-de-la-catedra/ |
 | Material de Soporte para Trabajo Practico | mat-tp&lt;n_tp&gt;-&lt;dominio&gt;.pdf | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/material-de-soporte/ |
+| Manuales de Buenas Practicas | &lt;dominio&gt;-&lt;lenguaje_de_programación&gt;-coding-conventions.pdf | /isw-grupo5-2019/trabajos-practicos/tp6-implementacion-us-delivereat/documentación/ |
 
 ## 3. Glosario
 
