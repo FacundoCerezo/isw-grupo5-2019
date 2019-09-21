@@ -1,0 +1,68 @@
+﻿@model IEnumerable<DeliverEat.Models.Pedido>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Detalle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DomicilioEntrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DomicilioRecogida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaDeEntrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HoraDeEntrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Detalle)
+        </td>
+        <th>
+            @Html.DisplayFor(modelItem => item.DomicilioEntrega.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayFor(modelItem => item.DomicilioRecogida.Descripcion)
+        </th>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaDeEntrega)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoraDeEntrega)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefono)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Detalle", "Details", new { id=item.Id }) |
+        </td>
+    </tr>
+}
+
+</table>

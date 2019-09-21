@@ -1,0 +1,50 @@
+﻿body {
+}
+.fondo {
+    background-color: darkgray;
+    color: rgb(255,255,204);
+}
+
+header {
+    position: fixed;
+}
+
+footer {
+    background-color: #343a40;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+#fondoSurf {
+    background-image: url("imagenesTablas/surf-2260558_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#violeta {
+    background-color: purple;
+    color: antiquewhite;
+}
+
+#contenedor {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.in {
+    border-radius: 0.25rem;
+}
+
+.padding30 {
+    padding-left: 30px;
+}
+
+element.style {
+    border-radius: 0.25rem;
+}
+
+form {
+    padding-right: 30px;
+    padding-left: 30px;
+}
