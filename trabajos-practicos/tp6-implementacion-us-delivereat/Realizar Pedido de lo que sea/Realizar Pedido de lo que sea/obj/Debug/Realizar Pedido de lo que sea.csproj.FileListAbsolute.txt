@@ -1,0 +1,69 @@
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.dll.config
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.pdb
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.exe
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.exe.config
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.rsp
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.exe
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.exe.config
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.rsp
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.Win32.Primitives.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.AppContext.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Collections.Immutable.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Console.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.Process.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.Compression.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.Pipes.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.AccessControl.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Claims.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Threading.Thread.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.ValueTuple.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XPath.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.exe
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.exe.config
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.rsp
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\VBCSCompiler.exe
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\VBCSCompiler.exe.config
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Newtonsoft.Json.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Net.Http.Formatting.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.WebHost.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Newtonsoft.Json.xml
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Net.Http.Formatting.xml
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.xml
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.WebHost.xml
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Net.Http.Formatting.resources.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Web.Http.resources.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Web.Http.WebHost.resources.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csproj.CoreCompileInputs.cache
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csproj.CopyComplete
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.dll
+c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.pdb
+C:\Users\Arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csprojAssemblyReference.cache

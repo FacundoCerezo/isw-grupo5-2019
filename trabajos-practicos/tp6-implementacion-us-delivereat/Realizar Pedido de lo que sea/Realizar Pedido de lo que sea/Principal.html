@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html ng-app="miApp">
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="MiEstilo.css" />
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <title>Deliver Eat</title>
+</head>
+<body class="fondo container-fluid" ng-controller="controller">
+
+    <div class="jumbotron text-center bg-dark img-fluid">
+        <h1 class="display-3">Deliver Eat</h1>
+    </div>
+
+
+    <h1 class="display-4">Registrar pedido "lo que sea"</h1>
+    <br />
+    <div class="container col-12">
+        <div class="row">
+
+        </div>
+        <div class="row">
+            <div class="container-fluid col-sm-8 " id="contenedor" >
+
+                <form name="frmTabla">
+                    
+                    <h1 class="display-5 ">Lugar del comercio</h1>
+                    <br />
+                    <div class="row">
+                        <div class="input-group mb-3 col-4">
+                            <label for="calle">Calle:  </label>
+                            <input ng-model="calle" type="text" class="form-control" name="txtcalle" maxlength="15" placeholder="Calle" />
+                        </div>
+                        <div class="input-group mb-3 col-4">
+                            <label for="numero">Número:  </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Número" />
+                        </div>
+                        <div class="input-group mb-3 col-4">
+                            <label for="email">Ciudad:  </label>
+                            <select required ng-init="tabla.idMarca = marcas[0]" ng-model="tablaMarca" ng-options="marca.nombre for marca in marcas" class="custom-select" id="selectMarca"></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group mb-3 col-12">
+                            <label for="numero">Descripcion:  </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Indicar referencias si es necesario" />
+                        </div>
+                    </div>
+                    <hr />
+
+
+                    <h1 class="display-5">Lugar de Entrega</h1>
+                    <br />
+                    <div class="row">
+                        <div class="input-group mb-3 col-4">
+                            <label for="email">Calle:  </label>
+                            <input ng-model="calle" type="text" class="form-control" name="txtcalle" maxlength="15" placeholder="Calle" />
+                        </div>
+                        <div class="input-group mb-3 col-4">
+                            <label for="email">Número:  </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Número" />
+                        </div>
+                        <div class="input-group mb-3 col-4">
+                            <label for="email">Ciudad:  </label>
+                            <select required ng-init="tabla.idMarca = marcas[0]" ng-model="tablaMarca" ng-options="marca.nombre for marca in marcas" class="custom-select" id="selectMarca"></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group mb-3 col-12">
+                            <label for="numero">Descripcion:  </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Indicar referencias si es necesario" />
+                        </div>
+                    </div>
+                    <hr />
+
+
+                    <!--Si se selecciona efectivo solo aparece el monto si se selecciona tarjeta visa aparece los otros datos-->
+                    <h1 class="display-5">Forma de pago</h1>
+                    <br />
+                    <div class="row">
+                        <div class="radio col-12">
+                            <label><input type="radio" name="optradio" checked>Efectivo</label>
+                        </div>
+                        <div class="radio col-12">
+                            <label><input type="radio" name="optradio">Tarjeta VISA</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-group mb-3 col-3">
+                            <label for="email">Monto $ :  </label>
+                            <input ng-model="tabla.precio" type="text" ng-pattern="/^[+-]?\d+(\.\d+)?$/" class="form-control" name="txtPrecio" min="1" placeholder="Monto" />
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="input-group mb-3 col-4">
+                            <label for="email">Número tarjeta:  </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Número tarjeta" />
+                        </div>
+                        <div class="input-group mb-3 col-4">
+                            <label for="email">Nombre títular:  </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Nombre títular" />
+                        </div>
+                        <div class="input-group mb-3 col-4">
+                            <label for="email">Apellido títular:  </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Apellido títular" />
+                        </div>
+                    </div>
+                    <label for="email">Fecha vencimiento  </label>
+                    <div class="row">
+
+                        <div class="input-group mb-3 col-3">
+                            <label for="email">Mes: </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="2" placeholder="MM" />
+                        </div>
+                        <div class="input-group mb-3 col-3">
+                            <label for="email">Año: </label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="4" placeholder="AAAA" />
+                        </div>
+                        <div class="input-group mb-3 col-3">
+                            <label for="email">CVC:</label>
+                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="3" placeholder="999" />
+                        </div>
+                    </div>
+                    <hr />
+
+
+
+                    <h1 class="display-5">Fecha entrega</h1>
+                    <br />
+                    <div class="row">
+                        <div class="radio col-12">
+                            <label><input type="radio" name="r1" checked>Lo antes posible</label>
+                        </div>
+                        <div class="radio col-12">
+                            <label><input type="radio" name="r1">Otra fecha</label>
+                        </div>
+                    </div>
+                    <label for="email">Fecha entrega </label>
+                    <div class="input-group mb-3 col-3">
+
+                        <input required ng-model="fecha" type="datetime-local" class="form-control" name="txtFecha" />
+                    </div>
+
+
+
+                    <br />
+
+                    <div class="input-group text-sm-center mb-4">
+                        <div class="row">
+                            <div id="containerBoton" class="col-sm">
+                                <button type="button" class="btn btn-success" id="boton" ng-disabled="frmTabla.$invalid || frmTabla.$pristine " ng-click="grabar()">Confirmar</button>
+                            </div>
+                            <div id="containerBoton" class="col-sm" ng-show="estadoABML == 'A'">
+                                <button type="button" class="btn btn-warning" id="boton" ng-click="limpiarFormulario()">Limpiar</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div class="container col-sm-4" id="contenedor">
+                <h1 class="display-5">Artículo a transportar</h1>
+                <br />
+                <div class="conteiner">
+                    <div class="row">
+                        <div class="col-sm-3">
+                                <a href="Imagen/m.jpg" target="_blank">
+                                <img src="Imagen/m.jpg" height="120" alt="Lights" />
+
+                                </a>
+                        </div>
+                        <div class="col-sm-1">
+                            <button type="button" class="btn btn-success" id="boton" ng-click="grabar()">+</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="input-group ">
+                                <input required ng-model="descripcion" type="text" class="form-control" name="txtNombre" placeholder="Descripcion articulo" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="card-footer">
+        <footer class="text-sm-center col-sm-12 ">
+            <h2>Copyright &copy; Grupo 5</h2>
+        </footer>
+    </div>
+
+</body>
+</html>
