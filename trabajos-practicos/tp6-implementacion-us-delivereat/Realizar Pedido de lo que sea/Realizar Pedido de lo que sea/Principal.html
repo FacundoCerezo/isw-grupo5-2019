@@ -4,227 +4,216 @@
     <meta charset="utf-8" />
     <link type="text/css" rel="stylesheet" href="MiEstilo.css" />
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-    <script src="Scripts/angular.min.js"></script>
-    <script src="Scripts/deliverEat.js"></script>
     <title>Deliver Eat</title>
 </head>
 <body class="fondo container-fluid" ng-controller="controller">
-
     <div class="jumbotron text-center bg-dark img-fluid">
         <h1 class="display-3">Deliver Eat</h1>
     </div>
-
-
     <h1 class="display-4">Registrar pedido "lo que sea"</h1>
     <br />
     <div class="container col-12">
         <div class="row">
-
         </div>
         <div class="row">
-            <div class="container-fluid col-sm-8 " id="contenedor" >
-
-                <form name="frmPedido" novalidate="novalidate">
-                    
-                    <h1 class="display-5 ">Lugar del comercio</h1>
-                    <br />
-                    <div class="row">
-                        <div class="input-group mb-3 col-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Calle:</span>
-                            </div>
-                            <input required ng-model="calleComercio" type="text" class="form-control" maxlength="15" placeholder="Calle" />
-                        </div>
-                        <div class="input-group mb-3 col-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Número:</span>
-                            </div>
-                            <input required ng-model="numeroComercio" type="number" class="form-control" maxlength="4" placeholder="Número" />
-                        </div>
-                        <div class="input-group mb-3 col-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Ciudad:</span>
-                            </div>
-                            <select required ng-model="ciudadComercio" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-group mb-3 col-12">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Descripcion:</span>
-                            </div>
-                            <input ng-model="descripcionComercio" type="text" class="form-control" maxlength="30" placeholder="Indicar referencias si es necesario" />
-                        </div>
-                    </div>
-                    <hr />
-
-
-                    <h1 class="display-5">Lugar de Entrega</h1>
-                    <br />
-                    <div class="row">
-                        <div class="input-group mb-3 col-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Calle:</span>
-                            </div>
-                            <input required ng-model="calleEntrega" type="text" class="form-control" maxlength="15" placeholder="Calle" />
-                        </div>
-                        <div class="input-group mb-3 col-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Número:</span>
-                            </div>
-                            <input required ng-model="numeroEntrega" type="number" class="form-control" maxlength="4" placeholder="Número" />
-                        </div>
-                        <div class="input-group mb-3 col-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Ciudad:</span>
-                            </div>
-                            <select required ng-model="ciudadEntrega" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-group mb-3 col-12">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Descripcion:</span>
-                            </div>
-                            <input ng-model="descripcionEntrega" type="text" class="form-control" name="nro" maxlength="30" placeholder="Indicar referencias si es necesario" />
-                        </div>
-                    </div>
-                    <hr />
-
-
-                    <!--Si se selecciona efectivo solo aparece el monto si se selecciona tarjeta visa aparece los otros datos-->
-                    <h1 class="display-5">Forma de pago</h1>
-                    <br />
-                    <div class="row">
-                        <div class="radio col-12">
-                            <label><input type="radio" name="tarjetaRadio" ng-click="tarjeta = false" checked>Efectivo</label>
-                        </div>
-                        <div class="radio col-12">
-                            <label><input type="radio" name="tarjetaRadio" ng-click="tarjeta = true">Tarjeta VISA</label>
-                        </div>
-                    </div>
-
-                    <div class="row" ng-show="!tarjeta">
-                        <div class="input-group col-5">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Monto: $</span>
-                            </div>
-                            <input ng-model="monto" type="number" class="form-control" min="1" placeholder="Monto" />
-                        </div>
-                    </div>
-                    <div class="row" ng-show="tarjeta">
-                        <div class="row col-12">
-                            <div class="input-group col-12">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">Numero de tarjeta:</span>
-                                </div>
-                                <input ng-model="numeroTarjeta" type="text" class="form-control" placeholder="Número tarjeta" />
-                            </div>
-                        </div>
-                        <div class="row col-12">
-                            <div class="input-group col-12">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">Apellido y Nombre del titular: </span>
-                                </div>
-                                <input ng-model="ApellidoNombre" type="text" class="form-control" name="nro" maxlength="15" placeholder="Apellido y Nombre del títular" />
-                            </div>
-                        </div>
-                        <div class="row col-12">
-                            <div class="row col-12">
-                                <label>Fecha vencimiento  </label>
-                            </div>
-                            <div class="row col-12">
-                                <div class="input-group mb-4 col-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">Mes: </span>
-                                    </div>
-                                    <input ng-model="mesTarjeta" type="number" class="form-control" placeholder="MM" />
-                                </div>
-                                <div class="input-group mb-4 col-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">Año: </span>
-                                    </div>
-                                    <input ng-model="añoTarjeta" type="number" class="form-control" placeholder="AAAA" />
-                                </div>
-                                <div class="input-group mb-4 col-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">CVC: </span>
-                                    </div>
-                                    <input ng-model="cvcTarjeta" type="number" class="form-control" placeholder="999" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr />
-
-                    <h1 class="display-5">Fecha entrega</h1>
-                    <br />
-                    <div class="row">
-                        <div class="radio col-12">
-                            <label><input type="radio" name="horarioRadio" ng-click="horario = false" checked>Lo antes posible</label>
-                        </div>
-                        <div class="radio col-12">
-                            <label><input type="radio" name="horarioRadio" ng-click="horario = true">Otro horario</label>
-                        </div>
-                    </div>
-                    <div class="row" ng-show="horario">
-                        <div class="input-group col-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Horario de Entrega</span>
-                            </div>
-                            <input ng-model="horarioEntrega" type="time" class="form-control" />
-                        </div>
-                    </div>
-                    <br />
-
-                    <div class="input-group text-sm-center col-sm-12">
+            <form ng-model="frmPedido" name="frmPedido" novalidate="novalidate">
+                <div class="row">
+                    <div class="container-fluid col-sm-7" id="contenedor">
+                        <h1 class="display-5 ">Lugar del comercio</h1>
+                        <br />
                         <div class="row">
-                            <div id="containerBoton" class="col-sm-2">
-                                <button type="button" class="btn btn-success" id="boton" ng-disabled="frmPedido.$invalid || frmPedido.$pristine " ng-click="grabar()">Confirmar</button>
+                            <div class="input-group mb-3 col-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Calle:</span>
+                                </div>
+                                <input required ng-model="calleComercio" type="text" class="form-control" maxlength="15" placeholder="Calle" />
                             </div>
-                            <div id="containerBoton" class="offset-sm-4 col-sm-2" ng-show="estadoABML == 'A'">
-                                <button type="button" class="btn btn-warning" id="boton" ng-click="limpiarFormulario()">Limpiar</button>
+                            <div class="input-group mb-3 col-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Número:</span>
+                                </div>
+                                <input required ng-model="numeroComercio" type="number" class="form-control" maxlength="4" placeholder="Número" />
+                            </div>
+                            <div class="input-group mb-3 col-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Ciudad:</span>
+                                </div>
+                                <select required ng-model="ciudadComercio" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group mb-3 col-12">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Descripcion:</span>
+                                </div>
+                                <input ng-model="descripcionComercio" type="text" class="form-control" maxlength="30" placeholder="Indicar referencias si es necesario" />
+                            </div>
+                        </div>
+                        <hr />
+
+                        <h1 class="display-5">Lugar de Entrega</h1>
+                        <br />
+                        <div class="row">
+                            <div class="input-group mb-3 col-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Calle:</span>
+                                </div>
+                                <input required ng-model="calleEntrega" type="text" class="form-control" maxlength="15" placeholder="Calle" />
+                            </div>
+                            <div class="input-group mb-3 col-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Número:</span>
+                                </div>
+                                <input required ng-model="numeroEntrega" type="number" class="form-control" maxlength="4" placeholder="Número" />
+                            </div>
+                            <div class="input-group mb-3 col-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Ciudad:</span>
+                                </div>
+                                <select required ng-model="ciudadEntrega" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group mb-3 col-12">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Descripcion:</span>
+                                </div>
+                                <input ng-model="descripcionEntrega" type="text" class="form-control" name="nro" maxlength="30" placeholder="Indicar referencias si es necesario" />
+                            </div>
+                        </div>
+                        <hr />
+
+                        <!--Si se selecciona efectivo solo aparece el monto si se selecciona tarjeta visa aparece los otros datos-->
+                        <h1 class="display-5">Forma de pago</h1>
+                        <br />
+                        <div class="row">
+                            <div class="radio col-12">
+                                <label><input type="radio" name="tarjetaRadio" ng-click="tarjetaFlag = false" checked>Efectivo</label>
+                            </div>
+                            <div class="radio col-12">
+                                <label><input type="radio" name="tarjetaRadio" ng-click="tarjetaFlag = true">Tarjeta VISA</label>
+                            </div>
+                        </div>
+
+                        <div class="row" ng-show="!tarjetaFlag">
+                            <div class="input-group col-5">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Monto: $</span>
+                                </div>
+                                <input ng-required="!tarjetaFlag" ng-model="monto" type="number" class="form-control" min="1" placeholder="Monto" />
+                            </div>
+                        </div>
+                        <div class="row" ng-show="tarjetaFlag">
+                            <div class="row col-12">
+                                <div class="input-group col-12">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Numero de tarjeta:</span>
+                                    </div>
+                                    <input ng-required="tarjetaFlag" ng-model="numeroTarjeta" type="text" class="form-control" pattern="^((4\d{3})|(5[1-5]\d{2})|(6011))-?\d{4}-?\d{4}-?\d{4}|3[4,7]\d{13}$" placeholder="Número tarjeta" />
+                                </div>
+                            </div>
+                            <div class="row col-12">
+                                <div class="input-group col-12">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Apellido y Nombre del titular: </span>
+                                    </div>
+                                    <input ng-required="tarjetaFlag" ng-model="apellidoNombre" type="text" class="form-control" name="nro" maxlength="15" placeholder="Apellido y Nombre del títular" />
+                                </div>
+                            </div>
+                            <div class="row col-12">
+                                <div class="row col-12">
+                                    <label>Fecha vencimiento  </label>
+                                </div>
+                                <div class="row col-12">
+                                    <div class="input-group mb-4 col-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Año: </span>
+                                        </div>
+                                        <input ng-required="tarjetaFlag" ng-model="anioTarjeta" type="number" class="form-control" min="2010" max="2030" />
+                                    </div>
+                                    <div class="input-group mb-4 col-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Mes: </span>
+                                        </div>
+                                        <input ng-required="tarjetaFlag" ng-model="mesTarjeta" type="number" class="form-control" min="1" max="12" />
+                                    </div>
+                                    <div class="input-group mb-4 col-4">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">CVC: </span>
+                                        </div>
+                                        <input ng-required="tarjetaFlag" ng-model="cvcTarjeta" type="number" class="form-control" min="1" max="999" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <!--El campo tipo horario solo aparece si selecciona pedido de tipo Otro Horario-->
+                        <h1 class="display-5">Fecha entrega</h1>
+                        <br />
+                        <div class="row">
+                            <div class="radio col-12">
+                                <label><input type="radio" name="horarioRadio" ng-click="horarioFlag = false" checked>Lo antes posible</label>
+                            </div>
+                            <div class="radio col-12">
+                                <label><input type="radio" name="horarioRadio" ng-click="horarioFlag = true">Otro horario</label>
+                            </div>
+                        </div>
+                        <div class="row" ng-show="horarioFlag">
+                            <div class="input-group col-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Horario de Entrega</span>
+                                </div>
+                                <input ng-required="horarioFlag" ng-model="horarioEntrega" type="time" class="form-control" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="input-group text-sm-center col-sm-12">
+                            <div class="row">
+                                <div id="containerBoton" class="col-sm-2">
+                                    <button type="button" class="btn btn-success" id="boton" ng-disabled="frmPedido.$invalid || frmPedido.$pristine " ng-click="grabar()">Confirmar</button>
+                                </div>
+                                <div id="containerBoton" class="offset-sm-6 col-sm-2">
+                                    <button type="button" class="btn btn-warning" id="boton" ng-click="limpiarFormulario()">Limpiar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </form>
-            </div>
 
-            <div class="container col-sm-4" id="contenedor">
-                <h1 class="display-5">Artículo a transportar</h1>
-                <br />
-                <div class="conteiner">
-                    <div class="row">
-                        <div class="col-sm-3">
-                                <a href="Imagen/m.jpg" target="_blank">
-                                <img src="Imagen/m.jpg" height="120" alt="Lights" />
-
-                                </a>
-                        </div>
-                        <div class="col-sm-1">
-                            <button type="button" class="btn btn-success" id="boton" ng-click="grabar()">+</button>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="input-group ">
-                                <input required ng-model="descripcion" type="text" class="form-control" name="txtNombre" placeholder="Descripcion articulo" />
+                    <div class="container col-sm-5" id="contenedor">
+                        <h1 class="display-5">Artículo a transportar</h1>
+                        <br />
+                        <div class="conteiner">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="input-group ">
+                                        <input required ng-model="productoDescripcion" type="text" class="form-control" placeholder="Describa el articulo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Imagen del produto:</span>
+                                        </div>
+                                        <input ng-model="productoImg" ng-change="cargarImagen()" type="file" accept="image/*" class="form-control" placeholder="Agregue una imagen del producto" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-            </div>
-
+            </form>
         </div>
-
     </div>
-
-
-
     <div class="card-footer">
         <footer class="text-sm-center col-sm-12 ">
             <h2>Copyright &copy; Grupo 5</h2>
         </footer>
     </div>
-
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/deliverEat.js"></script>
 </body>
 </html>
