@@ -67,3 +67,141 @@ c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo q
 c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.dll
 c:\users\arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.pdb
 C:\Users\Arux\source\repos\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csprojAssemblyReference.cache
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.dll.config
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.pdb
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.exe
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.exe.config
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.rsp
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.exe
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.exe.config
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.rsp
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.AppContext.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Collections.Immutable.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Console.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.Process.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.Compression.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.Pipes.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Reflection.Metadata.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.AccessControl.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Claims.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Threading.Thread.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.ValueTuple.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XPath.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.exe
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.exe.config
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.rsp
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\VBCSCompiler.exe
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\VBCSCompiler.exe.config
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Newtonsoft.Json.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Net.Http.Formatting.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.WebHost.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Newtonsoft.Json.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Net.Http.Formatting.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.WebHost.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Web.Http.resources.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csprojAssemblyReference.cache
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csproj.CoreCompileInputs.cache
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csproj.CopyComplete
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.pdb
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.dll.config
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Realizar Pedido de lo que sea.pdb
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.exe
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.exe.config
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csc.rsp
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.exe
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.exe.config
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\csi.rsp
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.AppContext.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Console.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.Compression.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.IO.Pipes.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Claims.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Threading.Thread.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.ValueTuple.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XPath.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.exe
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.exe.config
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\vbc.rsp
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\VBCSCompiler.exe
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Newtonsoft.Json.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Net.Http.Formatting.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.WebHost.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Newtonsoft.Json.xml
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Net.Http.Formatting.xml
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.xml
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Web.Http.WebHost.xml
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Web.Http.resources.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csprojAssemblyReference.cache
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csproj.CopyComplete
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.dll
+C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.pdb

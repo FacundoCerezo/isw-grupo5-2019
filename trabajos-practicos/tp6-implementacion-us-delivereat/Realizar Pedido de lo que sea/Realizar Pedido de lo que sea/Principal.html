@@ -1,9 +1,11 @@
 ﻿<!DOCTYPE html>
-<html ng-app="miApp">
+<html ng-app="deliverEatApp">
 <head>
     <meta charset="utf-8" />
     <link type="text/css" rel="stylesheet" href="MiEstilo.css" />
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/deliverEat.js"></script>
     <title>Deliver Eat</title>
 </head>
 <body class="fondo container-fluid" ng-controller="controller">
@@ -22,28 +24,36 @@
         <div class="row">
             <div class="container-fluid col-sm-8 " id="contenedor" >
 
-                <form name="frmTabla">
+                <form name="frmPedido" novalidate="novalidate">
                     
                     <h1 class="display-5 ">Lugar del comercio</h1>
                     <br />
                     <div class="row">
                         <div class="input-group mb-3 col-4">
-                            <label for="calle">Calle:  </label>
-                            <input ng-model="calle" type="text" class="form-control" name="txtcalle" maxlength="15" placeholder="Calle" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Calle:</span>
+                            </div>
+                            <input required ng-model="calleComercio" type="text" class="form-control" maxlength="15" placeholder="Calle" />
                         </div>
                         <div class="input-group mb-3 col-4">
-                            <label for="numero">Número:  </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Número" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Número:</span>
+                            </div>
+                            <input required ng-model="numeroComercio" type="number" class="form-control" maxlength="4" placeholder="Número" />
                         </div>
                         <div class="input-group mb-3 col-4">
-                            <label for="email">Ciudad:  </label>
-                            <select required ng-init="tabla.idMarca = marcas[0]" ng-model="tablaMarca" ng-options="marca.nombre for marca in marcas" class="custom-select" id="selectMarca"></select>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Ciudad:</span>
+                            </div>
+                            <select required ng-model="ciudadComercio" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-group mb-3 col-12">
-                            <label for="numero">Descripcion:  </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Indicar referencias si es necesario" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Descripcion:</span>
+                            </div>
+                            <input ng-model="descripcionComercio" type="text" class="form-control" maxlength="30" placeholder="Indicar referencias si es necesario" />
                         </div>
                     </div>
                     <hr />
@@ -53,22 +63,30 @@
                     <br />
                     <div class="row">
                         <div class="input-group mb-3 col-4">
-                            <label for="email">Calle:  </label>
-                            <input ng-model="calle" type="text" class="form-control" name="txtcalle" maxlength="15" placeholder="Calle" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Calle:</span>
+                            </div>
+                            <input required ng-model="calleEntrega" type="text" class="form-control" maxlength="15" placeholder="Calle" />
                         </div>
                         <div class="input-group mb-3 col-4">
-                            <label for="email">Número:  </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Número" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Número:</span>
+                            </div>
+                            <input required ng-model="numeroEntrega" type="number" class="form-control" maxlength="4" placeholder="Número" />
                         </div>
                         <div class="input-group mb-3 col-4">
-                            <label for="email">Ciudad:  </label>
-                            <select required ng-init="tabla.idMarca = marcas[0]" ng-model="tablaMarca" ng-options="marca.nombre for marca in marcas" class="custom-select" id="selectMarca"></select>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Ciudad:</span>
+                            </div>
+                            <select required ng-model="ciudadEntrega" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-group mb-3 col-12">
-                            <label for="numero">Descripcion:  </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Indicar referencias si es necesario" />
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Descripcion:</span>
+                            </div>
+                            <input ng-model="descripcionEntrega" type="text" class="form-control" name="nro" maxlength="30" placeholder="Indicar referencias si es necesario" />
                         </div>
                     </div>
                     <hr />
@@ -79,90 +97,98 @@
                     <br />
                     <div class="row">
                         <div class="radio col-12">
-                            <label><input type="radio" name="optradio" checked>Efectivo</label>
+                            <label><input type="radio" name="tarjetaRadio" ng-click="tarjeta = false" checked>Efectivo</label>
                         </div>
                         <div class="radio col-12">
-                            <label><input type="radio" name="optradio">Tarjeta VISA</label>
+                            <label><input type="radio" name="tarjetaRadio" ng-click="tarjeta = true">Tarjeta VISA</label>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="input-group mb-3 col-3">
-                            <label for="email">Monto $ :  </label>
-                            <input ng-model="tabla.precio" type="text" ng-pattern="/^[+-]?\d+(\.\d+)?$/" class="form-control" name="txtPrecio" min="1" placeholder="Monto" />
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-                        <div class="input-group mb-3 col-4">
-                            <label for="email">Número tarjeta:  </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Número tarjeta" />
-                        </div>
-                        <div class="input-group mb-3 col-4">
-                            <label for="email">Nombre títular:  </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Nombre títular" />
-                        </div>
-                        <div class="input-group mb-3 col-4">
-                            <label for="email">Apellido títular:  </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="15" placeholder="Apellido títular" />
+                    <div class="row" ng-show="!tarjeta">
+                        <div class="input-group col-5">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Monto: $</span>
+                            </div>
+                            <input ng-model="monto" type="number" class="form-control" min="1" placeholder="Monto" />
                         </div>
                     </div>
-                    <label for="email">Fecha vencimiento  </label>
-                    <div class="row">
-
-                        <div class="input-group mb-3 col-3">
-                            <label for="email">Mes: </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="2" placeholder="MM" />
+                    <div class="row" ng-show="tarjeta">
+                        <div class="row col-12">
+                            <div class="input-group col-12">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Numero de tarjeta:</span>
+                                </div>
+                                <input ng-model="numeroTarjeta" type="number" class="form-control" placeholder="Número tarjeta" />
+                            </div>
                         </div>
-                        <div class="input-group mb-3 col-3">
-                            <label for="email">Año: </label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="4" placeholder="AAAA" />
+                        <div class="row col-12">
+                            <div class="input-group col-12">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Apellido y Nombre del titular: </span>
+                                </div>
+                                <input ng-model="ApellidoNombre" type="text" class="form-control" name="nro" maxlength="15" placeholder="Apellido y Nombre del títular" />
+                            </div>
                         </div>
-                        <div class="input-group mb-3 col-3">
-                            <label for="email">CVC:</label>
-                            <input ng-model="numero" type="text" class="form-control" name="nro" maxlength="3" placeholder="999" />
+                        <div class="row col-12">
+                            <div class="row col-12">
+                                <label>Fecha vencimiento  </label>
+                            </div>
+                            <div class="row col-12">
+                                <div class="input-group mb-4 col-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Mes: </span>
+                                    </div>
+                                    <input ng-model="mesTarjeta" type="number" class="form-control" placeholder="MM" />
+                                </div>
+                                <div class="input-group mb-4 col-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Año: </span>
+                                    </div>
+                                    <input ng-model="añoTarjeta" type="number" class="form-control" placeholder="AAAA" />
+                                </div>
+                                <div class="input-group mb-4 col-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">CVC: </span>
+                                    </div>
+                                    <input ng-model="cvcTarjeta" type="number" class="form-control" placeholder="999" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <hr />
-
-
 
                     <h1 class="display-5">Fecha entrega</h1>
                     <br />
                     <div class="row">
                         <div class="radio col-12">
-                            <label><input type="radio" name="r1" checked>Lo antes posible</label>
+                            <label><input type="radio" name="horarioRadio" ng-click="horario = false" checked>Lo antes posible</label>
                         </div>
                         <div class="radio col-12">
-                            <label><input type="radio" name="r1">Otra fecha</label>
+                            <label><input type="radio" name="horarioRadio" ng-click="horario = true">Otro horario</label>
                         </div>
                     </div>
-                    <label for="email">Fecha entrega </label>
-                    <div class="input-group mb-3 col-3">
-
-                        <input required ng-model="fecha" type="datetime-local" class="form-control" name="txtFecha" />
+                    <div class="row" ng-show="horario">
+                        <div class="input-group col-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Horario de Entrega</span>
+                            </div>
+                            <input ng-model="horarioEntrega" type="time" class="form-control" />
+                        </div>
                     </div>
-
-
-
                     <br />
 
-                    <div class="input-group text-sm-center mb-4">
+                    <div class="input-group text-sm-center col-sm-12">
                         <div class="row">
-                            <div id="containerBoton" class="col-sm">
-                                <button type="button" class="btn btn-success" id="boton" ng-disabled="frmTabla.$invalid || frmTabla.$pristine " ng-click="grabar()">Confirmar</button>
+                            <div id="containerBoton" class="col-sm-2">
+                                <button type="button" class="btn btn-success" id="boton" ng-disabled="frmPedido.$invalid || frmPedido.$pristine " ng-click="grabar()">Confirmar</button>
                             </div>
-                            <div id="containerBoton" class="col-sm" ng-show="estadoABML == 'A'">
+                            <div id="containerBoton" class="offset-sm-4 col-sm-2" ng-show="estadoABML == 'A'">
                                 <button type="button" class="btn btn-warning" id="boton" ng-click="limpiarFormulario()">Limpiar</button>
                             </div>
-
                         </div>
                     </div>
                 </form>
             </div>
-
-
 
             <div class="container col-sm-4" id="contenedor">
                 <h1 class="display-5">Artículo a transportar</h1>
