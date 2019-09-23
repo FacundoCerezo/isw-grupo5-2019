@@ -205,3 +205,18 @@ C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que s
 C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.csproj.CopyComplete
 C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.dll
 C:\Users\franc\Desktop\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\obj\Debug\Realizar Pedido de lo que sea.pdb
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\x86\sqlite3.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\x64\sqlite3.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\DeliverEat.BackEnd.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\EntityFramework.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\EntityFramework.SqlServer.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Data.SQLite.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Data.SQLite.EF6.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Data.SQLite.Linq.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\SQLite.CodeFirst.dll
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\DeliverEat.BackEnd.pdb
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\DeliverEat.BackEnd.dll.config
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\EntityFramework.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\EntityFramework.SqlServer.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Data.SQLite.xml
+D:\Facultad\ISW\isw-grupo5-2019\trabajos-practicos\tp6-implementacion-us-delivereat\Realizar Pedido de lo que sea\Realizar Pedido de lo que sea\bin\System.Data.SQLite.dll.config
