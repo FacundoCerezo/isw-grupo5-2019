@@ -209,12 +209,15 @@
                                             <span class="input-group-text">Imagen:</span>
                                         </div>
                                         <input type="file" accept="image/*" class="form-control" onchange="angular.element(this).scope().cargarFoto(this.files)" placeholder="Agregue una imagen del producto" />
+										<button class="btn btn-danger" type="button" ng-hide="Pedido.Imagen == 0" ng-click="Pedido.Imagen = 0"/>Quitar</button> 
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <img src="api/uploads/{{Pedido.Imagen}}" alt="No Se ha cargado una imagen" />
+									<span ng-hide="Pedido.Imagen != 0" class="breadcrumb bg-danger">No se ha cargado una imagen</span>
+									<img ng-hide="Pedido.Imagen == 0" src="api/uploads/{{Pedido.Imagen}}" />
+									
                                 </div>
                             </div>
                         </div>
