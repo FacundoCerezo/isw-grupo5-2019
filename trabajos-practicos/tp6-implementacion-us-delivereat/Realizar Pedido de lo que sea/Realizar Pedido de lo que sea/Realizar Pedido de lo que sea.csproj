@@ -123,6 +123,8 @@
     <Content Include="Global.asax" />
     <Content Include="App_Data\Uploads\m.jpg" />
     <Content Include="Css\MiEstilo.css" />
+    <Content Include="Mapas\mapaDestino.png" />
+    <Content Include="Mapas\mapaOrigen.png" />
     <Content Include="Principal.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />

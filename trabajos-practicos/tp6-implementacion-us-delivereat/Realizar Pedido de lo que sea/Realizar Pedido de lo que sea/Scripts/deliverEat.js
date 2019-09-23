@@ -3,24 +3,25 @@ deliverEatApp.controller("controller", function ($scope, $http) {
 
     $scope.tarjetaFlag = false;
     $scope.horarioFlag = false;
-    $scope.ciudades = [{ id: 1, nombre: "Cordoba" },
-        { id: 2, nombre: "Rosario" },
-        { id: 3, nombre: "Buenos Aires" }];
+    $scope.ciudades = [];
+
+    $scope.cargarCiudades = function () {
+        $http.get("api/ciudades").then(function (response) {
+            $scope.ciudades = response.data;
+        });
+    };
+    $scope.cargarCiudades();
 
     $scope.Pedido = {
         DomicilioOrigen: {
             Calle: "",
             Numero: "",
             Descripcion: "",
-            Ciudad: $scope.ciudades[0],
-            CiudadId: 0
         },
         DomicilioDestino: {
             Calle: "",
             Numero: "",
             Descripcion: "",
-            Ciudad: $scope.ciudades[0],
-            CiudadId: 0
         },
         Monto: "",
         EstadoPedidoId: 1,
@@ -35,7 +36,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
         FechaHoraEntrega: null,
         Imagen: "",
         Descripcion: "",
-    }
+    };
 
     $scope.limpiarFormulario = function () {
         $scope.Pedido = {
@@ -50,14 +51,12 @@ deliverEatApp.controller("controller", function ($scope, $http) {
                 Calle: "",
                 Numero: "",
                 Descripcion: "",
-                Ciudad: $scope.ciudades[0],
             },
 
             DomicilioDestino: {
                 Calle: "",
                 Numero: "",
                 Descripcion: "",
-                Ciudad: $scope.ciudades[0],
             },
 
             Tarjeta: {
@@ -68,6 +67,8 @@ deliverEatApp.controller("controller", function ($scope, $http) {
                 CVC: ""
             },
         }
+        $scope.CiudadDestino = $scope.ciudades[0];
+        $scope.CiudadOrigen = $scope.ciudades[0];
         $scope.frmPedido.$setPristine(true);
     };
 
@@ -88,13 +89,13 @@ deliverEatApp.controller("controller", function ($scope, $http) {
         };
 
         for (var i = 0; i < $scope.ciudades.length; i++) {
-            if ($scope.ciudades[i] === $scope.Pedido.DomicilioDestino.Ciudad) {
+            if ($scope.ciudades[i] === $scope.CiudadDestino) {
                 $scope.Pedido.DomicilioDestino.CiudadId = i;
             };
         };
 
         for (var i = 0; i < $scope.ciudades.length; i++) {
-            if ($scope.ciudades[i] === $scope.Pedido.DomicilioOrigen.Ciudad) {
+            if ($scope.ciudades[i] === $scope.CiudadOrigen) {
                 $scope.Pedido.DomicilioOrigen.CiudadId = i;
             };
         };
@@ -103,11 +104,23 @@ deliverEatApp.controller("controller", function ($scope, $http) {
             window.alert("Pedido Enviado");
         });
         $scope.limpiarFormulario();
+    };
+
+    $scope.cargarOrigen = function () {
+        $scope.Pedido.DomicilioOrigen = {
+                Calle: "Bv. Chacabuco",
+                Numero: 480,
+                Descripcion: "Entre Bv Illia y Rondeau"
+        }
+        $scope.CiudadOrigen = $scope.ciudades[0];
     }
 
-    $scope.grabarImagen = function() {
-        $http.post("api/uploads", $scope.FuenteImagen).then(function (response) {
-            $scope.Pedido.Imagen = response;
-        })
+    $scope.cargarDestino = function () {
+        $scope.Pedido.DomicilioDestino = {
+            Calle: "Ituzaingo",
+            Numero: 655,
+            Descripcion: "Entre Obispo Oro y San Lorenzo"
+        }
+        $scope.CiudadDestino = $scope.ciudades[0];
     }
 });

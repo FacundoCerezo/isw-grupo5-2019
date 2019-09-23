@@ -38,7 +38,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Ciudad:</span>
                                 </div>
-                                <select required ng-model="Pedido.DomicilioOrigen.Ciudad" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
+                                <select required ng-model="CiudadOrigen" ng-options="ciudad.Nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
                             </div>
                         </div>
                         <div class="row">
@@ -47,6 +47,11 @@
                                     <span class="input-group-text">Descripcion:</span>
                                 </div>
                                 <input ng-model="Pedido.DomicilioOrigen.Descripcion" type="text" class="form-control" maxlength="30" placeholder="Indicar referencias si es necesario" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" ng-click="cargarOrigen()"><img src="Mapas/mapaOrigen.png" style='width:100%; max-width:400px' border="0" alt="Null" /></button>
                             </div>
                         </div>
                         <hr />
@@ -70,7 +75,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Ciudad:</span>
                                 </div>
-                                <select required ng-model="Pedido.DomicilioDestino.Ciudad" ng-options="ciudad.nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
+                                <select required ng-model="CiudadDestino" ng-options="ciudad.Nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
                             </div>
                         </div>
                         <div class="row">
@@ -79,6 +84,11 @@
                                     <span class="input-group-text">Descripcion:</span>
                                 </div>
                                 <input ng-model="Pedido.DomicilioDestino.Descripcion" type="text" class="form-control" name="nro" maxlength="30" placeholder="Indicar referencias si es necesario" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" ng-click="cargarDestino()"><img src="Mapas/mapaDestino.png" style='width:100%; max-width:400px'  border="0" alt="Null"/></button>
                             </div>
                         </div>
                         <hr />
