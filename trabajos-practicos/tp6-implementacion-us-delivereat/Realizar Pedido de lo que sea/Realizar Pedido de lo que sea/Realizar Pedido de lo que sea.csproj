@@ -122,7 +122,7 @@
     <Content Include="Bootstrap\js\bootstrap.min.js.map" />
     <Content Include="Global.asax" />
     <Content Include="App_Data\Uploads\m.jpg" />
-    <Content Include="MiEstilo.css" />
+    <Content Include="Css\MiEstilo.css" />
     <Content Include="Principal.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />

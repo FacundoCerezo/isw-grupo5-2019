@@ -2,7 +2,7 @@
 <html ng-app="deliverEatApp">
 <head>
     <meta charset="utf-8" />
-    <link type="text/css" rel="stylesheet" href="MiEstilo.css" />
+    <link rel="stylesheet" href="Css/MiEstilo.css" />
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
     <title>Deliver Eat</title>
 </head>
@@ -109,7 +109,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text">Numero de tarjeta:</span>
                                     </div>
-                                    <input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.Numero" type="text" class="form-control" pattern="^((4\d{3})|(5[1-5]\d{2})|(6011))-?\d{4}-?\d{4}-?\d{4}|3[4,7]\d{13}$" placeholder="Número tarjeta" />
+                                    <input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.Numero" type="text" class="form-control" pattern="^(\d{4}[- ]){3}\d{4}|\d{16}$" placeholder="Número tarjeta" />
                                 </div>
                             </div>
                             <div class="row col-12">
@@ -117,7 +117,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text">Apellido y Nombre del titular: </span>
                                     </div>
-                                    <input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.NombreTitular" type="text" class="form-control" name="nro" maxlength="15" placeholder="Apellido y Nombre del títular" />
+                                    <input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.NombreTitular" type="text" class="form-control" maxlength="15" placeholder="Apellido y Nombre del títular" />
                                 </div>
                             </div>
                             <div class="row col-12">
@@ -160,11 +160,11 @@
                             </div>
                         </div>
                         <div class="row" ng-show="horarioFlag">
-                            <div class="input-group col-4">
+                            <div class="input-group col-sm-5">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Horario de Entrega</span>
                                 </div>
-                                <input ng-required="horarioFlag" ng-model="Pedido.FechaHoraEntrega" type="time" class="form-control" />
+                                <input ng-required="horarioFlag" pattern="[0-9]{2}:[0-9]{2}" ng-model="Pedido.FechaHoraEntrega" type="time" class="form-control" />
                             </div>
                         </div>
                         <br />
@@ -196,10 +196,16 @@
                                 <div class="col-sm-12">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text">Imagen del produto:</span>
+                                            <span class="input-group-text">Imagen:</span>
                                         </div>
-                                        <input ng-model="Pedido.Imagen" ng-change="cargarImagen()" type="file" accept="image/*" class="form-control" placeholder="Agregue una imagen del producto" />
+                                        <input ng-model="FuenteImagen" type="file" accept="image/*" class="form-control" placeholder="Agregue una imagen del producto" />
+                                        <button type="button" class="btn btn-dark" ng-click="grabarImagen()">Enviar Imagen</button>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="App_Data/Uploads/{{Pedido.Imagen}}" alt="No Se ha cargado una imagen" />
                                 </div>
                             </div>
                         </div>
