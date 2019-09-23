@@ -26,6 +26,9 @@ GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings;
 			// Rutas de API web
 			config.MapHttpAttributeRoutes();
 
+			// Fix para uploads en Postman
+			GlobalConfiguration.Configuration.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
+
 			config.Routes.MapHttpRoute(
 				name: "DefaultApi",
 				routeTemplate: "api/{controller}/{id}",
