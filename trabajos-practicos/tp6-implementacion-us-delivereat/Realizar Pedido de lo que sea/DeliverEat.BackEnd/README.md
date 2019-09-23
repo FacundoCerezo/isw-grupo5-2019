@@ -5,7 +5,8 @@ Este proyecto contiene la capa de datos para acceder a la base SQLite mediante R
 
 Para agregar un pedido desde la API REST se hace una solicitud POST a `/api/pedidos`
 
-`{
+```
+{
 	"DomicilioOrigen": {
 		"Calle": "Maipu",
 		"Numero": "3235",
@@ -24,9 +25,10 @@ Para agregar un pedido desde la API REST se hace una solicitud POST a `/api/pedi
 	"Tarjeta": {
 			"Numero": 9329103920493294,
 			"NombreTitular": "Facundo Cerezo",
-			"Anio": 29,
+			"Anio": "29",
 			"Mes": "09",
 			"CVC": 324
 	},
 	"Descripcion": "Mochila Intercalar de color Negro"
-}`
+}
+```
