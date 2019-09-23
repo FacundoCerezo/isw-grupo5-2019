@@ -208,14 +208,13 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">Imagen:</span>
                                         </div>
-                                        <input ng-model="FuenteImagen" type="file" accept="image/*" class="form-control" placeholder="Agregue una imagen del producto" />
-                                        <button type="button" class="btn btn-dark" ng-click="grabarImagen()">Enviar Imagen</button>
+                                        <input type="file" accept="image/*" class="form-control" onchange="angular.element(this).scope().cargarFoto(this.files)" placeholder="Agregue una imagen del producto" />
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <img src="App_Data/Uploads/{{Pedido.Imagen}}" alt="No Se ha cargado una imagen" />
+                                    <img src="api/uploads/{{Pedido.Imagen}}" alt="No Se ha cargado una imagen" />
                                 </div>
                             </div>
                         </div>

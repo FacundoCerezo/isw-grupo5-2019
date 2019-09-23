@@ -122,5 +122,21 @@ deliverEatApp.controller("controller", function ($scope, $http) {
             Descripcion: "Entre Obispo Oro y San Lorenzo"
         }
         $scope.CiudadDestino = $scope.ciudades[0];
-    }
+	}
+
+	$scope.cargarFoto = function (files) {
+		var fd = new FormData();
+		//Take the first selected file
+		fd.append("file", files[0]);
+		$http.post("api/uploads", fd,
+			{
+				headers: { 'Content-Type': undefined },
+				transformRequest: angular.identity
+			}
+		).then(function(data){
+			$scope.Pedido.Imagen = data.data;
+		}, function (status) { window.alert("Error: " + status) });
+	};
+
+
 });
