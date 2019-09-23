@@ -54,13 +54,12 @@ deliverEatApp.controller("controller", function ($scope, $http) {
             $scope.Pedido.Tarjeta.CVC = "";
         };
         if (!$scope.horarioFlag) {
-            $scope.Pedido.FechaHoraEntrega = "";
+            $scope.Pedido.FechaHoraEntrega = null;
         };
 
         $http.post("api/pedidos", $scope.Pedido).then(function (response) {
             window.alert("Pedido Enviado");
-        })
+        });
+        $scope.limpiarFormulario();
     }
-
-
 });
