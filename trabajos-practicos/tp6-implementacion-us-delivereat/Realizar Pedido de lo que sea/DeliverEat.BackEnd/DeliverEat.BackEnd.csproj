@@ -55,6 +55,8 @@
     <Reference Include="System.Data.SQLite.Linq, Version=1.0.111.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.111.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -63,20 +65,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Model\Ciudad.cs" />
-    <Compile Include="Model\DeliverEatContext.cs" />
-    <Compile Include="Model\Domicilio.cs" />
-    <Compile Include="Model\EstadoPedido.cs" />
-    <Compile Include="Model\FormaPago.cs" />
-    <Compile Include="Model\Pedido.cs" />
-    <Compile Include="Model\Tarjeta.cs" />
+    <Compile Include="Model.CodeFirst\Ciudad.cs" />
+    <Compile Include="Model.CodeFirst\DeliverEatContext.cs" />
+    <Compile Include="Model.CodeFirst\Domicilio.cs" />
+    <Compile Include="Model.CodeFirst\EstadoPedido.cs" />
+    <Compile Include="Model.CodeFirst\FormaPago.cs" />
+    <Compile Include="Model.CodeFirst\Pedido.cs" />
+    <Compile Include="Model.CodeFirst\Tarjeta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
