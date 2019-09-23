@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realizar Pedido de lo que sea", "Realizar Pedido de lo que sea\Realizar Pedido de lo que sea.csproj", "{7D9395FB-FDC7-499D-8779-934B30D34A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverEat.BackEnd", "DeliverEat.BackEnd\DeliverEat.BackEnd.csproj", "{29E091EB-0EB4-4815-B9F3-3BC5ABB6DE04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7D9395FB-FDC7-499D-8779-934B30D34A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9395FB-FDC7-499D-8779-934B30D34A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9395FB-FDC7-499D-8779-934B30D34A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E091EB-0EB4-4815-B9F3-3BC5ABB6DE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E091EB-0EB4-4815-B9F3-3BC5ABB6DE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E091EB-0EB4-4815-B9F3-3BC5ABB6DE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E091EB-0EB4-4815-B9F3-3BC5ABB6DE04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
