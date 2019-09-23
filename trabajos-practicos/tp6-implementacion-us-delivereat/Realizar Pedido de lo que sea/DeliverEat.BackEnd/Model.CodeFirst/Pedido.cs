@@ -41,5 +41,6 @@ namespace DeliverEat.BackEnd.Model.CodeFirst
 		[Required]
 		public String Descripcion { get; set; }
 		public String Imagen { get; set; }
+		public DateTime FechaEntrega { get; set; }
 	}
 }
