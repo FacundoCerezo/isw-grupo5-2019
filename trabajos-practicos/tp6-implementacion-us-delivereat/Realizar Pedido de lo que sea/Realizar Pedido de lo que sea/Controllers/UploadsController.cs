@@ -10,12 +10,40 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Controllers;
+using System.Web.Http.Filters;
 
 namespace Realizar_Pedido_de_lo_que_sea.Controllers
 {
+	
+	// Anotación para controlar que el tamaño del archivo subido no sea mayor
+	// a cierta cantidad en bytes.
+	public class MaxContentLengthAttribute : AuthorizationFilterAttribute
+	{
+		private readonly long _maxContentType;
+
+		public MaxContentLengthAttribute(long maxContentType)
+		{
+			_maxContentType = maxContentType;
+		}
+
+		public override void OnAuthorization(HttpActionContext actionContext)
+		{
+			var contentLength = actionContext.Request.Content.Headers.ContentLength;
+			if (contentLength.HasValue && contentLength.Value > _maxContentType)
+			{
+				actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.RequestEntityTooLarge);
+			}
+		}
+	}
+
 	[RoutePrefix("api/uploads")]
 	public class UploadsController : ApiController
 	{
+		// Tamaño máximo de archivo (5MB default)
+		const Int32 MAX_FILE_SIZE = 1024 * 1024 * 5;
+
+		[MaxContentLength(MAX_FILE_SIZE)]
 		[Route("")]
 		public HttpResponseMessage Post()
 		{
