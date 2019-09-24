@@ -36,7 +36,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
             Mes: "",
             CVC: ""
         },
-        FechaHoraEntrega: new Date(),
+        FechaHoraEntrega: null,
         Imagen: "",
         Descripcion: "",
     };
@@ -91,7 +91,17 @@ deliverEatApp.controller("controller", function ($scope, $http) {
         };
         if (!$scope.horarioFlag) {
             $scope.Pedido.FechaHoraEntrega = new Date;
-        };
+        } else {
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0'); 
+            var yyyy = today.getFullYear();
+            var horas = $scope.Pedido.FechaHoraEntrega.getHours();
+            $scope.Pedido.FechaHoraEntrega.setFullYear(yyyy);
+            $scope.Pedido.FechaHoraEntrega.setMonth(mm);
+            $scope.Pedido.FechaHoraEntrega.setDate(dd);
+            $scope.Pedido.FechaHoraEntrega.setHours(horas-3);
+        }
 /*
         for (var i = 0; i < $scope.ciudades.length; i++) {
             if ($scope.ciudades[i] === $scope.CiudadDestino) {
