@@ -32,7 +32,7 @@ namespace Realizar_Pedido_de_lo_que_sea.Controllers
 			var contentLength = actionContext.Request.Content.Headers.ContentLength;
 			if (contentLength.HasValue && contentLength.Value > _maxContentType)
 			{
-				actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.RequestEntityTooLarge);
+				actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.RequestEntityTooLarge, "El archivo es demasiado grande. Sube un archivo menor a "+_maxContentType/1024/1024+"MB");
 			}
 		}
 	}

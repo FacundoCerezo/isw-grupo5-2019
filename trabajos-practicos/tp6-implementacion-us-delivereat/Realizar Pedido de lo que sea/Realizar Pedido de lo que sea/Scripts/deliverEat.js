@@ -150,7 +150,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
 			}
 		).then(function(data){
 			$scope.Pedido.Imagen = data.data;
-		}, function (status) { window.alert("Error: " + status) });
+		}, function (status) { console.log(status); window.alert("Error: " + status.status +" "+status.statusText +"\n"+status.data) });
 	};
 
 
