@@ -142,22 +142,24 @@
 								<div class="row col-12">
 									<div class="input-group mb-4 col-4">
 										<div class="input-group-prepend">
-											<span class="input-group-text">Año: </span>
+											<span class="input-group-text">Mes: </span>
 										</div>
-										<input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.Anio" type="number" class="form-control" min="19" max="99" maxlength="2" />
+										<input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.Mes" name="tarjetaMes" type="number" data-card-expiration placeholder="MM" class="form-control" min="1" max="12" maxlength="2" />
 									</div>
 									<div class="input-group mb-4 col-4">
 										<div class="input-group-prepend">
-											<span class="input-group-text">Mes: </span>
+											<span class="input-group-text">Año: </span>
 										</div>
-										<input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.Mes" type="number" class="form-control" min="1" max="12" maxlength="2" />
+										<input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.Anio" name="tarjetaAnio " type="number" placeholder="AA" class="form-control" min="19" max="99" maxlength="2" mask="99" clean="true" />
 									</div>
+
 									<div class="input-group mb-4 col-4">
 										<div class="input-group-prepend">
 											<span class="input-group-text">CVC: </span>
 										</div>
-										<input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.CVC" type="number" class="form-control" min="1" max="999" maxlength="3"/>
+										<input ng-required="tarjetaFlag" ng-model="Pedido.Tarjeta.CVC" type="number" placeholder="###" class="form-control" min="1" max="999" maxlength="3" mask="999" />
 									</div>
+									<span ng-show="frmPedido.tarjetaMes.$error.invalid" class="alert-danger">Esta tarjeta venció</span>
 								</div>
 							</div>
 						</div>
@@ -218,19 +220,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="container-fluid contenedor py-4 mx-0">
-
-						<div class="input-group text-sm-center col-sm-12">
-							<div class="row">
-								<div id="containerBoton" class="col-sm-2">
-									<button type="button" class="btn btn-success" id="boton" ng-disabled="frmPedido.$invalid || frmPedido.$pristine " ng-click="grabar()">Confirmar</button>
-								</div>
-								<div id="containerBoton" class="offset-sm-6 col-sm-2">
-									<button type="button" class="btn btn-warning" id="boton" ng-click="limpiarFormulario()">Limpiar</button>
-								</div>
+				<div class="row contenedor py-4">
+					<div class="col-md-6">
+						<div class="input-group text-sm-center form-row">
+							<div id="containerBoton" class="col-5">
+								<button type="submit" class="btn btn-success d-block" id="boton" ng-disabled="frmPedido.$invalid || frmPedido.$pristine " ng-click="grabar()">Confirmar</button>
+							</div>
+							<div id="containerBoton" class="offset-2 col-5">
+								<button type="button" class="btn btn-warning d-block" id="boton" ng-click="limpiarFormulario()">Limpiar</button>
 							</div>
 						</div>
+					</div>
+					<div class="col-md-6">
+						<span ng-show="frmPedido.$invalid && !frmPedido.$submitted" class="badge-warning badge mt-3">Faltan datos para confirmar el pedido o los datos son inválidos.</span>
 					</div>
 				</div>
 			</form>

@@ -4,6 +4,8 @@ deliverEatApp.controller("controller", function ($scope, $http) {
     $scope.tarjetaFlag = false;
     $scope.horarioFlag = false;
     $scope.ciudades = [];
+	$scope.anioActual = new Date().getFullYear() - 2000;
+	$scope.mesActual = new Date().getMonth();
 
     $scope.cargarCiudades = function () {
         $http.get("api/ciudades").then(function (response) {
@@ -155,3 +157,26 @@ deliverEatApp.controller("controller", function ($scope, $http) {
 
 
 });
+
+deliverEatApp.directive
+	('cardExpiration'
+		, function () {
+			var directive =
+			{
+				require: 'ngModel'
+				, link: function (scope, elm, attrs, ctrl) {
+					scope.$watch('[Pedido.Tarjeta.Mes,Pedido.Tarjeta.Anio]', function (value) {
+						ctrl.$setValidity('invalid', true)
+						if (scope.Pedido.Tarjeta.Anio == scope.anioActual
+							&& scope.Pedido.Tarjeta.Mes <= scope.mesActual
+							&& scope.tarjetaFlag
+						) {
+							ctrl.$setValidity('invalid', false)
+						}
+						return value
+					}, true)
+				}
+			}
+			return directive
+		}
+)
