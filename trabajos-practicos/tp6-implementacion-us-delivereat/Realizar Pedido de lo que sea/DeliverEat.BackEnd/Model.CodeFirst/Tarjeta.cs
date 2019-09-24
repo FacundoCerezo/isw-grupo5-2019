@@ -17,9 +17,11 @@ namespace DeliverEat.BackEnd.Model.CodeFirst
 		public int Id { get; set; }
 		public String Numero { get; set; }
 		public String NombreTitular { get; set; }
-		[MaxLength(2)]
+		[MaxLength(4)]
 		public String Anio { get; set; }
+		[MaxLength(2)]
 		public String Mes { get; set; }
-		public int CVC { get; set; }
+		[MaxLength(3)]
+		public String CVC { get; set; }
 	}
 }
