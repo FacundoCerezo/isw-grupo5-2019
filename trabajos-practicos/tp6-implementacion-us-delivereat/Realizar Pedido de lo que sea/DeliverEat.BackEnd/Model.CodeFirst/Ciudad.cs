@@ -14,7 +14,6 @@ namespace DeliverEat.BackEnd.Model.CodeFirst
 	{
 		[Key]
 		public int Id { get; set; }
-		[Unique]
 		public String Nombre { get; set; }
 		public String Descripcion { get; set; }
 	}

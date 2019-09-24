@@ -73,16 +73,18 @@ deliverEatApp.controller("controller", function ($scope, $http) {
     };
 
     $scope.grabar = function () {
-        $scope.Pedido.FormaPagoId = $scope.tarjetaFlag ? 2 : 1;
+        $scope.Pedido.FormaPagoId = ($scope.tarjetaFlag ? 2 : 1);
 
         if ($scope.tarjetaFlag) {
             $scope.Pedido.Monto = 0;
         } else {
-            $scope.Pedido.Tarjeta.Numero = "";
+            /*$scope.Pedido.Tarjeta.Numero = "";
             $scope.Pedido.Tarjeta.NombreTitular = "";
             $scope.Pedido.Tarjeta.Anio = "";
             $scope.Pedido.Tarjeta.Mes = "";
-            $scope.Pedido.Tarjeta.CVC = 0;
+            $scope.Pedido.Tarjeta.CVC = 0;*/
+			$scope.Pedido.Tarjeta = undefined;
+			delete $scope.Pedido.Tarjeta;
         };
         if (!$scope.horarioFlag) {
             $scope.Pedido.FechaHoraEntrega = new Date;
