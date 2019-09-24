@@ -6,6 +6,9 @@ deliverEatApp.controller("controller", function ($scope, $http) {
     $scope.ciudades = [];
 	$scope.anioActual = new Date().getFullYear() - 2000;
 	$scope.mesActual = new Date().getMonth();
+	$scope.FechaEntrega = new Date();
+	$scope.HoraEntrega = new Date();
+	$scope.HoraEntrega.setSeconds(0);
 
     $scope.cargarCiudades = function () {
         $http.get("api/ciudades").then(function (response) {
@@ -75,7 +78,13 @@ deliverEatApp.controller("controller", function ($scope, $http) {
         $scope.CiudadDestino = $scope.ciudades[0];
         $scope.CiudadOrigen = $scope.ciudades[0];
         $scope.frmPedido.$setPristine(true);
-    };
+	};
+
+	$scope.getCombinedDateTime = function (date, time) {
+		var datePart = date.toISOString().substring(0, 10);
+		var timePart = time.toISOString().substring(10, 24);
+		return new Date(datePart + timePart);
+	};
 
     $scope.grabar = function () {
         $scope.Pedido.FormaPagoId = ($scope.tarjetaFlag ? 2 : 1);
@@ -93,17 +102,23 @@ deliverEatApp.controller("controller", function ($scope, $http) {
         };
         if (!$scope.horarioFlag) {
             $scope.Pedido.FechaHoraEntrega = new Date;
-        } else {
-            var today = new Date();
+		} else {
+			var today = $scope.FechaEntrega;
             var dd = String(today.getDate()).padStart(2, '0');
             var mm = String(today.getMonth() + 1).padStart(2, '0'); 
-            var yyyy = today.getFullYear();
-            var horas = $scope.Pedido.FechaHoraEntrega.getHours();
+			var yyyy = today.getFullYear();
+			var horas = $scope.HoraEntrega.getHours();
+			var minutos = $scope.HoraEntrega.getMinutes();
+		/*var horas = $scope.Pedido.FechaHoraEntrega.getHours();*/
+			$scope.Pedido.FechaHoraEntrega = new Date;
             $scope.Pedido.FechaHoraEntrega.setFullYear(yyyy);
             $scope.Pedido.FechaHoraEntrega.setMonth(mm);
             $scope.Pedido.FechaHoraEntrega.setDate(dd);
-            $scope.Pedido.FechaHoraEntrega.setHours(horas-3);
-        }
+			$scope.Pedido.FechaHoraEntrega.setHours(horas - 3);
+			$scope.Pedido.FechaHoraEntrega.setMinutes(minutos);
+		}
+
+		
 /*
         for (var i = 0; i < $scope.ciudades.length; i++) {
             if ($scope.ciudades[i] === $scope.CiudadDestino) {
@@ -180,3 +195,46 @@ deliverEatApp.directive
 			return directive
 		}
 )
+
+deliverEatApp.directive
+	('validEntrega'
+		, function () {
+			var directive =
+			{
+				require: 'ngModel'
+				, link: function (scope, elm, attrs, ctrl) {
+					scope.$watch('[FechaEntrega,HoraEntrega]', function (value) {
+						ctrl.$setValidity('invalid', true);
+						var today = new Date();
+						today.setSeconds(0);
+
+						var dd = scope.FechaEntrega.getDate();
+						var mm = scope.FechaEntrega.getMonth();
+						var yyyy = scope.FechaEntrega.getFullYear();
+
+						var horas = scope.HoraEntrega.getHours();
+						var minutos = scope.HoraEntrega.getMinutes();
+
+						var test = new Date;
+						test.setFullYear(yyyy);
+						test.setMonth(mm);
+						test.setDate(dd);
+						test.setHours(horas);
+						test.setMinutes(minutos);
+						test.setSeconds(0);
+
+						console.log(today);
+						console.log(test)
+
+						if (test < today
+							&& scope.horarioFlag
+						) {
+							ctrl.$setValidity('invalid', false)
+						}
+						return value
+					}, true)
+				}
+			}
+			return directive
+		}
+	)

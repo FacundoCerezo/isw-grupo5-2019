@@ -6,9 +6,7 @@
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
 	<title>Deliver Eat</title>
 
-	<script src="Scripts/angular.js"></script>
-	<script src="Scripts/ngMask.js"></script>
-	<script src="Scripts/deliverEat.js"></script>
+	
 </head>
 <body class="fondo container-fluid" ng-controller="controller">
 	<div class="jumbotron text-center bg-dark img-fluid">
@@ -179,9 +177,15 @@
 						<div class="row" ng-show="horarioFlag">
 							<div class="input-group col-sm-5">
 								<div class="input-group-prepend">
+									<span class="input-group-text">Fecha de Entrega</span>
+								</div>
+								<input name="fechaEntrega" ng-required="horarioFlag" ng-model="FechaEntrega" type="date" class="form-control" />
+								<div class="input-group-prepend">
 									<span class="input-group-text">Horario de Entrega</span>
 								</div>
-								<input ng-required="horarioFlag" pattern="[0-9]{2}:[0-9]{2}" ng-model="Pedido.FechaHoraEntrega" type="time" class="form-control" />
+								<input name="horaEntrega" ng-required="horarioFlag" ng-model="HoraEntrega" data-valid-entrega type="time" class="form-control" />
+								<span ng-show="frmPedido.horaEntrega.$error.invalid" class="alert-danger">La fecha/hora es inválida</span>
+
 							</div>
 						</div>
 						<br />
@@ -244,5 +248,8 @@
 		</footer>
 	</div>
 
+	<script src="Scripts/angular.js"></script>
+	<script src="Scripts/ngMask.js"></script>
+	<script src="Scripts/deliverEat.js"></script>
 </body>
 </html>
