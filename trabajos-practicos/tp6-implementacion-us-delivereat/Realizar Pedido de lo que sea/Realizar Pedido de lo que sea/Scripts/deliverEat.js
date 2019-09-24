@@ -117,7 +117,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
                 Numero: 480,
                 Descripcion: "Entre Bv Illia y Rondeau"
         }
-        $scope.CiudadOrigen = $scope.ciudades[0];
+        $scope.Pedido.DomicilioOrigen.CiudadId = 1;
     }
 
     $scope.cargarDestino = function () {
@@ -126,7 +126,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
             Numero: 655,
             Descripcion: "Entre Obispo Oro y San Lorenzo"
         }
-        $scope.CiudadDestino = $scope.ciudades[0];
+		$scope.Pedido.DomicilioDestino.CiudadId = 1;
 	}
 
 	$scope.cargarFoto = function (files) {

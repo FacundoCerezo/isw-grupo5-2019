@@ -42,10 +42,7 @@
 								<div class="input-group-prepend">
 									<span class="input-group-text">Ciudad:</span>
 								</div>
-								<!-- cambiamos a select con ng-repeat para poder pasar el valor sin usar JS -->
-								<select required ng-model="Pedido.DomicilioOrigen.CiudadId" class="custom-select" id="selectCiudades">
-									<option ng-repeat="ciudad in ciudades" value="{{ciudad.Id}}">{{ciudad.Nombre}}</option>
-								</select>
+								<select required ng-model="Pedido.DomicilioOrigen.CiudadId" ng-options="ciudad.Id as ciudad.Nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
 							</div>
 						</div>
 						<div class="row">
@@ -83,9 +80,7 @@
 									<span class="input-group-text">Ciudad:</span>
 								</div>
 								<!-- cambiamos a select con ng-repeat para poder pasar el valor sin usar JS -->
-								<select required ng-model="Pedido.DomicilioDestino.CiudadId" class="custom-select" id="selectCiudades">
-									<option ng-repeat="ciudad in ciudades" value="{{ciudad.Id}}">{{ciudad.Nombre}}</option>
-								</select>
+								<select required ng-model="Pedido.DomicilioDestino.CiudadId" ng-options="ciudad.Id as ciudad.Nombre for ciudad in ciudades" class="custom-select" id="selectCiudades"></select>
 							</div>
 						</div>
 						<div class="row">
