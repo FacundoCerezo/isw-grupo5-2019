@@ -130,6 +130,7 @@
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\deliverEat.js" />
+    <Content Include="Scripts\ngMask.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

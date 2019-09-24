@@ -1,4 +1,4 @@
-﻿var deliverEatApp = angular.module("deliverEatApp", []);
+﻿var deliverEatApp = angular.module("deliverEatApp", ['ngMask']);
 deliverEatApp.controller("controller", function ($scope, $http) {
 
     $scope.tarjetaFlag = false;
@@ -7,10 +7,13 @@ deliverEatApp.controller("controller", function ($scope, $http) {
 
     $scope.cargarCiudades = function () {
         $http.get("api/ciudades").then(function (response) {
-            $scope.ciudades = response.data;
+			$scope.ciudades = response.data;
+			console.log($scope.ciudades);
         });
     };
-    $scope.cargarCiudades();
+	$scope.cargarCiudades();
+
+	
 
     $scope.Pedido = {
         DomicilioOrigen: {
@@ -33,7 +36,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
             Mes: "",
             CVC: ""
         },
-        FechaHoraEntrega: null,
+        FechaHoraEntrega: new Date(),
         Imagen: "",
         Descripcion: "",
     };
@@ -89,7 +92,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
         if (!$scope.horarioFlag) {
             $scope.Pedido.FechaHoraEntrega = new Date;
         };
-
+/*
         for (var i = 0; i < $scope.ciudades.length; i++) {
             if ($scope.ciudades[i] === $scope.CiudadDestino) {
                 $scope.Pedido.DomicilioDestino.CiudadId = i;
@@ -100,7 +103,7 @@ deliverEatApp.controller("controller", function ($scope, $http) {
             if ($scope.ciudades[i] === $scope.CiudadOrigen) {
                 $scope.Pedido.DomicilioOrigen.CiudadId = i;
             };
-        };
+        };*/
 
         $http.post("api/pedidos", $scope.Pedido).then(function (response) {
             window.alert("Pedido Enviado");
