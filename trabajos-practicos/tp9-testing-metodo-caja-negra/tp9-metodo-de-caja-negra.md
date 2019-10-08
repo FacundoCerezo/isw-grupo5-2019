@@ -13,7 +13,7 @@
 
 ### Clases de equivalencias de salida
 
-|Condición externa|Condición externa|Clases de equivalencia inválidas|
+|Condición externa|Clases de equivalencia válidas|Clases de equivalencia inválidas|
 |-----------------|-----------------|--------------------------------|
 |Color de estado de taxi|Verde <br> Amarillo<br> Rojo<br> Negro<br>|Taxi no conectado|
 |Datos del pasajero|Nombre<br> Apellido<br> Celular<br>|Me da error que no es posible ver los datos del pasajero|
