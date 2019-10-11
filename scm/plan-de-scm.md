@@ -20,6 +20,7 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Material de Soporte para Trabajo Practico | mat-tp&lt;n_tp&gt;-&lt;dominio&gt;.pdf | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/material-de-soporte/ |
 | Imagenes de Trabajos Practicos | tp&lt;n_tp&gt;-&lt;dominio&gt;-&lt;nn&gt;.&lt;ext-img&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/imagenes/ |
 | Manuales de Buenas Practicas | &lt;dominio&gt;-&lt;lenguaje_de_programación&gt;-coding-conventions.pdf | /isw-grupo5-2019/trabajos-practicos/tp6-implementacion-us-delivereat/documentación/ |
+| Devolución de los Trabajos Prácticos | devolución-corrección-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 
 ## 3. Glosario
 
