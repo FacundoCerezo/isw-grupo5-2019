@@ -15,7 +15,9 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Estimaciones | estimacion-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 | Informe Técnico | ISW_IT_Despliegue_Continuo_2019_4k2_Grupo_5.pdf | /isw-grupo5-2019/trabajos-conceptuales/informe-tecnico-despliegue-continuo/ |
 | Bibliografía de Informe Técnico | bib_&lt;autor&gt;_&lt;titulo&gt;.&lt;ext-bib&gt; | /isw-grupo5-2019/trabajos-conceptuales/informe-tecnico-despliegue-continuo/bibliografia/  |
-| Enunciados de Trabajos Prácticos | ISW_Enunciados_TP_evaluables_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/
+| Enunciados de Trabajos Prácticos | ISW_Enunciados_TP_evaluables_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/ |
+| Guia de Trabajos Prácticos Resueltos  | ISW_Guia_TP_Resueltos_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/ |
+| Enunciados de Trabajos Conceptuales | ISW_Enunciados_Trabajos_Conceptuales_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/ |
 | Modalidad Academica | UTN_FRC_Modalidad_ISW_2019_2do_Cuat | /isw-grupo5-2019/material-de-la-catedra/ |
 | Material de Soporte para Trabajo Practico | mat-tp&lt;n_tp&gt;-&lt;dominio&gt;.&lt;ext-mat-tp&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/material-de-soporte/ |
 | Imagenes de Trabajos Practicos | tp&lt;n_tp&gt;-&lt;dominio&gt;-&lt;nn&gt;.&lt;ext-img&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/imagenes/ |
@@ -54,12 +56,12 @@ La estructura de directorios es la siguiente
         ├─── tp9-testing-metodo-caja-negra
         ├─── tp10-testing-metodo-caja-blanca
         ├─── tp11-kanban-ejercicio-aplicacion
+        |    └─── material-de-soporte
         ├─── tp12-testing-metodo-caja-negra2
         |    └─── material-de-soporte
         ├─── tp13-testing-ejecucion-casos-prueba
         |    └─── material-de-soporte
         ├─── tp14-testing-ejecucion-casos-prueba
-        |    └─── material-de-soporte
         └─── tp15-testing-ejecucion-casos-prueba
 ```
 
