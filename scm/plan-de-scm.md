@@ -13,8 +13,8 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Conjunto de User Stories | us-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 | Resolución de Trabajo Práctico | tp&lt;n_tp&gt;-&lt;dominio&gt;.&lt;ext-tp&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 | Estimaciones | estimacion-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
-| Informe Técnico | ISW_IT_Despliegue_Continuo_2019_4k2_Grupo_5.pdf | /isw-grupo5-2019/ |informe-tecnico-despliegue-continuo-grupo5/ |
-| Bibliografía de Informe Técnico | bib_&lt;autor&gt;_&lt;titulo&gt;.&lt;ext-bib&gt; | /isw-grupo5-2019/ |informe-tecnico-despliegue-continuo-grupo5/bibliografia/  |
+| Informe Técnico | ISW_IT_Despliegue_Continuo_2019_4k2_Grupo_5.pdf | /isw-grupo5-2019/trabajos-conceptuales/informe-tecnico-despliegue-continuo/ |
+| Bibliografía de Informe Técnico | bib_&lt;autor&gt;_&lt;titulo&gt;.&lt;ext-bib&gt; | /isw-grupo5-2019/trabajos-conceptuales/informe-tecnico-despliegue-continuo/bibliografia/  |
 | Enunciados de Trabajos Prácticos | ISW_Enunciados_TP_evaluables_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/
 | Modalidad Academica | UTN_FRC_Modalidad_ISW_2019_2do_Cuat | /isw-grupo5-2019/material-de-la-catedra/ |
 | Material de Soporte para Trabajo Practico | mat-tp&lt;n_tp&gt;-&lt;dominio&gt;.&lt;ext-mat-tp&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/material-de-soporte/ |
@@ -31,8 +31,11 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 La estructura de directorios es la siguiente
 
 ```isw-grupo5-2019
-    ├─── informe-tecnico-despliegue-continuo-grupo5
-    |    └─── bibliografia
+    ├─── trabajos-conceptuales
+    |   ├─── informe-tecnico-despliegue-continuo
+    |   |    └─── bibliografia
+    |   ├─── pecha-kucha-testing-agil
+    |   └─── poster-cientifico-design-thinking
     ├─── material-de-la-catedra
     ├─── scm
     └─── trabajos-practicos
@@ -44,21 +47,23 @@ La estructura de directorios es la siguiente
         ├─── tp6-implementacion-us-delivereat
         |    ├─── documentación
         |    └─── Realizar-Pedido-de-lo-que-sea
-        └─── tp7-dinamica-de-scrum
+        ├─── tp7-dinamica-de-scrum
+        |    └─── imagenes
+        ├─── tp8-zoo
+        |    └─── imagenes
+        ├─── tp9-testing-metodo-caja-negra
+        ├─── tp10-testing-metodo-caja-blanca
+        ├─── tp11-kanban-ejercicio-aplicacion
+        ├─── tp12-testing-metodo-caja-negra2
+        |    └─── material-de-soporte
+        ├─── tp13-testing-ejecucion-casos-prueba
+        |    └─── material-de-soporte
+        ├─── tp14-testing-ejecucion-casos-prueba
+        |    └─── material-de-soporte
+        └─── tp15-testing-ejecucion-casos-prueba
 ```
 
 ## 5. Gestión de la línea base
 
-Los siguientes items de configuración serán incluidos en cada línea base cuando tengan un nivel de madurez suficiente:
-
-- Todas las resoluciones de los trabajos prácticos conceptuales.
-  - El informe técnico.
-  - El póster científico.
-  - El documento de Pecha Kucha.
-- Documentación relacionada con los prácticos evaluables. Al menos los siguientes Items de configuración tienen que ser incluidos:
-  - El plan de Gestión de la configuración.
-  - Código fuente relacionada con la implementación de user stories.
-  - Documentos de regla de estilo.
-  - Planilla excel con los resultados de la ejecución de testing.
-  
-  La línea base se creará durante la semana posterior a los parciales de la materia.
+  La linea base contendrá todos los archivos existentes en el branch "master" al momento de crearla.
+  La línea base se creará durante el sábado posterior a las evaluaciones parciales de la cátedra.
