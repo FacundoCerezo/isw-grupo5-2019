@@ -14,7 +14,7 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Resolución de Trabajo Práctico | tp&lt;n_tp&gt;-&lt;dominio&gt;.&lt;ext-tp&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 | Estimaciones | estimacion-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
 | Informe Técnico | ISW_IT_Despliegue_Continuo_2019_4k2_Grupo_5.pdf | /isw-grupo5-2019/trabajos-conceptuales/informe-tecnico-despliegue-continuo/ |
-| Bibliografía de Informe Técnico | bib_&lt;autor&gt;_&lt;titulo&gt;.&lt;ext-bib&gt; | /isw-grupo5-2019/trabajos-conceptuales/informe-tecnico-despliegue-continuo/bibliografia/  |
+| Bibliografía de Trabajos Conceptuales | bib_&lt;autor&gt;_&lt;titulo&gt;.&lt;ext-bib&gt; | /isw-grupo5-2019/trabajos-conceptuales/&lt;dominio&gt;/bibliografia/  |
 | Enunciados de Trabajos Prácticos | ISW_Enunciados_TP_evaluables_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/ |
 | Guia de Trabajos Prácticos Resueltos  | ISW_Guia_TP_Resueltos_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/ |
 | Enunciados de Trabajos Conceptuales | ISW_Enunciados_Trabajos_Conceptuales_2019_2doCuat | /isw-grupo5-2019/ |material-de-la-catedra/ |
@@ -23,6 +23,7 @@ Este documento contiene el Plan de Gestión de Configuración que será utilizad
 | Imagenes de Trabajos Practicos | tp&lt;n_tp&gt;-&lt;dominio&gt;-&lt;nn&gt;.&lt;ext-img&gt; | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/imagenes/ |
 | Manuales de Buenas Practicas | &lt;dominio&gt;-&lt;lenguaje_de_programación&gt;-coding-conventions.pdf | /isw-grupo5-2019/trabajos-practicos/tp6-implementacion-us-delivereat/documentación/ |
 | Devolución de los Trabajos Prácticos | devolución-corrección-tp&lt;n_tp&gt;-&lt;dominio&gt;.md | /isw-grupo5-2019/trabajos-practicos/tp&lt;n_tp&gt;-&lt;dominio&gt;/ |
+| Póster Científico | ISW_PC_Design_Thinking_2019_4k2_Grupo_5.pdf | /isw-grupo5-2019/trabajos-conceptuales/poster-cientifico-design-thinking/ |
 
 ## 3. Glosario
 
